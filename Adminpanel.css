@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+.sidebar{
+height:100vh;
+
+}
+li{
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+.active{
+    background-color:#FEBF10;
+    border-radius: 5px;;
+    color:black !important;
+    font-family: 'Merriweather Sans', sans-serif;
+  
+}
+.not-active:hover
+{
+    background-color:#FEBF10;
+    border-radius: 5px;;
+    font-family: 'Merriweather Sans', sans-serif;
+    color:black !important;
+}
+.icon-bullet::before{
+    content:"";
+    position: absolute; 
+    width:12px;
+    height:10px;
+    margin-left: 20px;
+    margin-top:7px;
+   border-radius: 50% ;
+  
+    background-color: orangered;
+
+
+}
+@media(max-width:768px)
+{
+    .sidebar{
+        position: static !important;
+        height: auto !important;
+    }
+    .top-navbar{
+        position: static !important;
+    }
+}
+#for-chart-page-and-section 
